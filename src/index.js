@@ -2,8 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 // import App from './Activity-1';
-import App from './Activity-2';
+// import App from './Activity-2';
 import reportWebVitals from './reportWebVitals';
+import Mycomponent from './Activity-3';
 
 // Activity 1
 // const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -14,10 +15,18 @@ import reportWebVitals from './reportWebVitals';
 // );
 
 // Activity 2
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(
+//   <React.StrictMode>
+//     <App />
+//   </React.StrictMode>
+// );
+
+// Activity 3
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Mycomponent />
   </React.StrictMode>
 );
 
