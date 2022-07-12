@@ -4,7 +4,8 @@ import './index.css';
 // import App from './Activity-1';
 // import App from './Activity-2';
 import reportWebVitals from './reportWebVitals';
-import Mycomponent from './Activity-3';
+// import Mycomponent from './Activity-3';
+import Todo from './Activity-4';
 
 // Activity 1
 // const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -23,10 +24,18 @@ import Mycomponent from './Activity-3';
 // );
 
 // Activity 3
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(
+//   <React.StrictMode>
+//     <Mycomponent />
+//   </React.StrictMode>
+// );
+
+// Activity 4
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Mycomponent />
+    <Todo />
   </React.StrictMode>
 );
 
