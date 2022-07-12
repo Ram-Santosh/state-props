@@ -1,5 +1,5 @@
 export default function List (props) {
     return (
-        props.tasks.join(",")
+        <p>{props.tasks.join(",")}</p>
     );
 }
