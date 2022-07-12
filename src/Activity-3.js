@@ -1,8 +1,8 @@
 import { useState } from "react";
 
 export default function Mycomponent () {
-    const [messege] = useState("Welcome to TechMojo");
+    const [message] = useState("Welcome to Techmojo!");
     return (
-        <h1>{messege}</h1>
+        <h1>{message}</h1>
     );
 }
